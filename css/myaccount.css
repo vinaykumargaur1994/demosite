@@ -1,0 +1,161 @@
+#middle {
+    width: 1052px;
+    height: 54px;
+    margin: 20px auto;
+    border-bottom: 2px solid white;
+    align-items: center;
+}
+
+#my-account {
+    align-items: center;
+}
+
+#personalinfo {
+    width: 1052px;
+    color: rgb(187, 177, 177);
+    font-size: 22px;
+    margin: 45px auto 0px auto;
+}
+
+label {
+    color: rgb(187, 177, 177);
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+#img-myaccount {
+    height: 35px;
+    width: 1052px;
+    margin-top: 20px;
+}
+
+#h-line {
+    border: 1px solid white;
+}
+
+#aside {
+    width: 1052px;
+    height: 600px;
+    margin: auto;
+}
+
+.inner {
+    width: 1052px;
+    height: 85px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.dimension {
+    width: 506px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    margin-right: 22px;
+    font-size: 25px;
+}
+
+.company1 {
+    height: 56px;
+    width: 514px;
+}
+
+.mail-w {
+    width: 1044px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+#pera-myaccount {
+    font-size: 24px;
+}
+
+#btn {
+    color: white;
+    padding-top: 40px;
+}
+
+#btn1 {
+    width: 165px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #7F7F7F;
+    font-size: unset;
+    color: white;
+}
+
+#btn2 {
+    width: 195px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #7F7F7F;
+    font-size: unset;
+    color: white;
+}
+
+#btn3 {
+    width: 144px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #0070c0;
+    font-size: unset;
+    color: white;
+}
+
+#changepass {
+    width: 1052px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#changepass-pera {
+    width: 184px;
+    height: 20px;
+    margin: 10px 0px 45px 15px;
+    color: white;
+    font-size: 22px;
+}
+
+#oldpass {
+    width: 1044px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-size: 25px;
+}
+
+.new-pass {
+    width: 508px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+#new-cnf-pass {
+    display: flex;
+    justify-content: space-between;
+}
+
+#updatebtn {
+    width: 144px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #0070c0;
+    font-size: 22px;
+    color: white;
+}
+
+#update-btn {
+    width: 1052px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 25px;
+}

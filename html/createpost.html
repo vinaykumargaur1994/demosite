@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/createpost.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftside-menu">
+            <img id="logo" src="../images/logo.png" alt="">
+            <div id="dash-box" class="account"> <img id="dash-img" class="myaccount" src="../images/dashboard.png" alt="dashboard image"> <a id="dash-an" class="an-box2 hover-effect" href="dashboard.html">Dashboard</a></div>
+            <div id="people-box" class="account"><img id="people-img" class="myaccount" src="../images/people.png" alt="people image"> <a id="account-an" class="an-box2" href="myaccount.html"> My
+                    account</a></div>
+            <div id="post-box" class="account"><img id="post-img" class="myaccount" src="../images/mypost.png" alt="my post image"> <a id="post-an" class="an-box2" href="mypost.html">My
+                    Post</a></div>
+            <div id="library-box" class="account"> <img id="library-img" class="myaccount" src="../images/medialibrary.png" alt="library image"><a id="media-an" class="an-box2" href="#">Media
+                    Library</a></div>
+            <div id="terms-box" class="account"><img id="terms-img" class="myaccount terms-img" src="../images/terms.png" alt="term imgae"> <a id="aa5" href="#" class="an-box2">Terms & Conditions</a></div>
+        </div>
+        <div id="right-side">
+            <div id="header">
+                <div id="wel-jhon">
+                    <div id="john">
+                        <h4>Welcome John</h4><br><a id="john-anchor" href="register.html">Basic account</a></div>
+                    <a id="logout-btn" href="sign-in.html">Logout</a>
+                </div>
+            </div>
+            <div id="section">
+                <img id="plusicon" src="../images/plusicon.png" alt="createpost image">
+                <a id="createpost" href="#">Create Post</a>
+            </div>
+            <div id="aside">
+                <label id="label-post" for="post-input">Post Title</label>
+                <input id="post-input" type="text" name="mypost">
+                <label id="label-tags" for="myTags">Internal Tags(Optional)</label>
+                <input id="myTags" type="text" name="mt-tag">
+
+                <label id="label-upload" for="upload-file">Upload image</label>
+                <input id="upload-file" type="file" value="  " name="myfile">
+
+                <label id="label-loc" for="loc-box">Location</label>
+                <input id="loc-box" type="text" name="myLocation">
+                <label id="label-text" for="text-box">Post Description</label>
+                <textarea id="text-box" name="myTextarea" cols="30" rows="10"></textarea>
+
+                <label id="lable-browser" for="brower-file">Upload Multimedia(Optional Mp3,Mp4,Jpg)</label>
+                <input id="brower-file" type="file" name="my-file">
+
+                <div id="btn-box">
+                    <button id="btn-save" class="btn" onclick="location.href='mypost.html'">Save</button>
+                    <input id="btn-submit" class="btn" type="submit" onclick="location.href='sign-in.html'" value="submit">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

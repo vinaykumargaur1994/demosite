@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="../css/myaccount.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftside-menu">
+            <img id="logo" src="../images/logo.png" alt="">
+            <div id="dash-box" class="account"> <img id="dash-img" class="myaccount" src="../images/dashboard.png" alt=""> <a id="dash-an" class="an-box2 hover-effect" href="dashboard.html">Dashboard</a></div>
+            <div id="people-box" class="account"><img id="people-img" class="myaccount" src="../images/people.png" alt=""> <a id="account-an" class="an-box2" href="myaccount.html"> My
+                    account</a></div>
+            <div id="post-box" class="account"><img id="post-img" class="myaccount" src="../images/mypost.png" alt=""> <a id="post-an" class="an-box2" href="mypost.html">My
+                    Post</a></div>
+            <div id="library-box" class="account"> <img id="library-img" class="myaccount" src="../images/medialibrary.png" alt=""><a id="media-an" class="an-box2" href="">Media
+                    Library</a></div>
+            <div id="terms-box" class="account"><img id="terms-img" class="myaccount terms-img" src="../images/terms.png" alt=""> <a id="aa5" href="" class="an-box2">Terms & Conditions</a></div>
+        </div>
+        <div id="rightside-box">
+            <div id="header">
+                <div id="wel-jhon">
+                    <div id="john">
+                        <h4>Welcome John</h4><br><a id="john-anchor" href="register.html">Basic account</a></div>
+                    <a id="logout-btn" href="sign-in.html">Logout</a>
+                </div>
+            </div>
+
+            <div id="middle">
+                <div id="my-account" class="account"><img class="myaccount" src="../images/people.png" alt="">
+                    <p href="" id="pera-myaccount" class="an-box2"> My account </p>
+                </div>
+
+            </div>
+            <p id="personalinfo">Personal Info</p>
+
+
+            <div id="aside">
+                <div class="inner">
+                    <div id="fname-box"> <label for="fname">Name</label><br>
+                        <input id="fname" class="dimension" type="text" name="fullname" placeholder="John smith ">
+                    </div>
+                    <div id="company-box">
+                        <label for="company-name">Company</label><br>
+                        <input id="company-name" class="dimension" type="text" name="myconmpany" placeholder="John smith">
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div id="email-box">
+                        <label for="myemail">Email</label><br>
+                        <input id="email-input" class="mail-w" type="email" name="myemail" placeholder="John@xyz.com"><br>
+                    </div>
+                </div>
+
+                <div id="inner-box11" class="inner">
+                    <div id="mycountry-box">
+                        <label for="country">My Country</label><br>
+                        <select name="country" id="" class="dimension company1" placeholder="Select Country">
+                                <option value="">Select Country</option>
+                                <option value="us">Us</option>
+                                <option value="jap">Japan</option>
+                                <option value="ina">India</option>
+                                <option value="pak">Pakistan</option>
+                            </select>
+                    </div>
+                    <div id="box-city">
+                        <label id="labelSelect" for="selectInput">City</label><br>
+                        <select id="selectInput" class="dimension company1" name="mycity">
+                                <option value="">Select City</option>
+                                <option value="mo">Morena</option>
+                                <option value="in">Indor</option>
+                                <option value="de">Delhi</option>
+                            </select>
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div id="phone-box">
+                        <label for="myphone">Phone Number</label><br>
+                        <input type="tel" id="phone-no" class="mail-w" name="myphone" maxlength="10" placeholder="+91 | Phone Number">
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div id="accType-box">
+                        <label for="myaccount">Account Type</label><br>
+                        <input type="text" id="Basic-account" class="dimension" name="myaccount" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Basic Account">
+                    </div>
+                    <div id="btn">
+                        <button id="btn1" onclick="location.href='dashboard.html'">Switch Account</button>
+                        <button id="btn2" onclick="location.href='sign-in.html'">Delet My Account</button>
+                        <button id="btn3" onclick="location.href='mypost.html'">Update</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="changepass">
+                <div id="pass-box1">
+                    <p id="changepass-pera">Change Password</p>
+                </div>
+                <div id="pass-box2">
+                    <label for="oldpass">Old Password</label><br>
+                    <input type="password" id="oldpass" name="pass">
+                </div>
+                <div id="new-cnf-pass">
+                    <div id="newpass-box"><label for="newpass">New Password</label><br>
+                        <input id="newpass" class="new-pass" type="password" name="newpass">
+                    </div>
+                    <div id="cnfrmpass-box">
+                        <label id="label-cnf" for="cnfpass">Confirm Password</label><br>
+                        <input id="cnfpass" class="new-pass" type="password" name="cnfpass">
+                    </div>
+                </div>
+                <div id="update-btn">
+                    <button id="updatebtn" onclick="location.href='mypost.html'">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

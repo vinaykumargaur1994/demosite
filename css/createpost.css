@@ -1,0 +1,82 @@
+#container {
+    height: 1580px !important;
+    grid-template-rows: 1580px !important;
+    color: white;
+}
+
+#section {
+    width: 1052px;
+    height: 48px;
+    margin: 20px auto;
+    margin-top: 50px;
+    border-bottom: 2px solid white;
+}
+
+#img-myaccount {
+    height: 35px;
+    width: 1052px;
+    margin-top: 20px;
+}
+
+#plusicon {
+    width: 25px;
+    height: 25px;
+    margin-right: 11px;
+}
+
+#createpost {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#aside {
+    display: flex;
+    flex-direction: column;
+    width: 1052px;
+    margin: auto;
+}
+
+#aside label {
+    font-size: 20px;
+    margin: 20px auto 7px 0px;
+}
+
+#aside input[type="text"] {
+    width: 1044px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#aside textarea {
+    border-radius: 10px;
+}
+
+.btn {
+    width: 145px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 21px;
+    background-color: #0098db;
+    color: white;
+    margin-right: 15px;
+    letter-spacing: 1px;
+}
+
+input[type="file"] {
+    width: 500px;
+    margin: 5px 0px 20px 0px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    color: white;
+    background: url(../images/drag.png);
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+}

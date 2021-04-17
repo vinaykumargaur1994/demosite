@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#container {
+    width: 1366px;
+    height: 768px;
+    display: grid;
+    grid-template-columns: 548px 818px;
+    grid-template-rows: 768px;
+    margin: 30px auto;
+}
+
+#leftside-box {
+    background-color: #101010;
+}
+
+.center-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightside-box {
+    background-color: black;
+}
+
+#inner-box {
+    width: 505px;
+    height: 600px;
+    display: grid;
+}
+
+#enterotp-pera {
+    color: #0070c0;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: system-ui;
+    letter-spacing: 1px;
+}
+
+#rightside-box div input {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 45px;
+    color: black;
+}
+
+#pera {
+    color: #d2d2d2;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#pera a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#inner-box button {
+    background-color: #0070c0;
+    font-size: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 85px;
+    margin-top: 180px;
+}
+
+#againsand-pera {
+    color: #d2d2d2;
+    width: 505px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.1pc;
+}
+
+#sandagain {
+    text-decoration: none;
+    color: #d2d2d2;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 1366px;
+    height: 768px;
+    display: grid;
+    grid-template-columns: 548px 818px;
+    grid-template-rows: 768px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#leftside-box {
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftside-box img {
+    width: 421px;
+    height: 345px;
+}
+
+#rightside-box {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-box {
+    width: 503px;
+    height: 600px;
+}
+
+h3 {
+    width: 160px;
+    height: 54px;
+    color: #0070C0;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: system-ui;
+    letter-spacing: 1px;
+}
+
+.inputDimension {
+    border-radius: 10px;
+    width: 503px;
+    height: 69px;
+    margin: 15px 0px;
+    font-size: 25px;
+}
+
+.list {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: #0070C0;
+}
+
+#forgetpasswordbtn {
+    color: #0070C0;
+    width: 201px;
+    height: 27px;
+    font-size: 24px;
+}
+
+#label-keep {
+    width: 259px;
+    height: 29px;
+    color: #aea9a9;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#check-keepme {
+    width: 29px;
+    height: 29px;
+    margin-top: 50px;
+}
+
+#btn-signIn {
+    text-align: center;
+    background-color: #0070C0;
+    height: 71px;
+    font-size: 35px;
+    color: white;
+}
+
+#regnow {
+    padding: 20px;
+    padding-left: 42px;
+    color: #aea9a9;
+    font-size: 22px;
+    letter-spacing: 1px;
+}

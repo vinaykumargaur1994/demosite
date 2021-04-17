@@ -1,0 +1,119 @@
+/* left side menu css */
+
+#container {
+    width: 1366px;
+    height: 1354px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 225px 1141px;
+    grid-template-rows: 1354px;
+    margin: 20px auto;
+}
+
+#leftside-menu {
+    background-color: black;
+    border-right: 2px solid #7f7f7f;
+    display: grid;
+    grid-template-columns: 223px;
+    grid-template-rows: 175px repeat(5, 40px) auto;
+}
+
+#leftside-menu>:first-child {
+    width: 223px;
+    height: 172px;
+}
+
+#an-box {
+    width: 223px;
+    height: 1008px;
+    clear: both;
+    padding: 10px;
+}
+
+.an-box2 {
+    color: #d9d9d9;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.account {
+    display: flex;
+    margin-right: 3px;
+    width: 223px;
+    height: 40px;
+    align-items: flex-end;
+}
+
+.myaccount {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.terms-img {
+    width: 25px;
+}
+
+#rightside-box {
+    width: 1141px;
+    height: 1354px;
+}
+
+
+/* right side Header css */
+
+#header {
+    width: 1141px;
+    height: 80px;
+    background-color: #0070c0;
+    display: grid;
+    /* grid-template-columns: auto 250px 41px; */
+    /* grid-template-rows: 41px; */
+}
+
+#wel-jhon {
+    width: 250px;
+    height: 50px;
+    color: white;
+    margin-top: 18px;
+    margin: 18px 0px 0px 858px;
+    display: flex;
+}
+
+#john {
+    margin-right: 4px;
+    border-right: 3px solid white;
+    padding-right: 12px;
+}
+
+h4 {
+    display: contents;
+}
+
+#john-anchor {
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    font-size: 16px;
+    float: right;
+}
+
+#logout-btn {
+    margin: 15px 8px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* hover effect */
+
+.an-box2:hover {
+    /* color: yellow; */
+    background-color: rgb(75, 51, 51);
+}
+
+#logout-btn:hover {
+    color: rgb(134, 245, 107);
+}

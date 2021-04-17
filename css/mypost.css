@@ -1,0 +1,145 @@
+#container {
+    width: 1566px !important;
+}
+
+#rightside-box {
+    width: 1341px !important;
+}
+
+#header {
+    width: 1341px !important;
+}
+
+#wel-jhon {
+    margin-left: 1018px !important;
+}
+
+.section {
+    display: flex;
+    width: 1252px;
+    height: 60px;
+    align-items: flex-end;
+    margin: 20px auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+#img-myaccount {
+    height: 35px;
+    width: 1052px;
+    margin-top: 20px;
+}
+
+#h-line {
+    border: 1px solid white;
+}
+
+#plus-post {
+    margin-left: 994px;
+}
+
+#plusicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+#createpost {
+    text-decoration: none;
+    color: white;
+}
+
+#search {
+    width: 490px;
+    height: 40px;
+    background-color: black;
+    font-size: 23px;
+    float: right;
+    margin: 20px;
+    color: white;
+}
+
+#aside {
+    width: 1252px;
+    height: 725px;
+    margin: 20px auto;
+}
+
+table {
+    color: white;
+    border-spacing: 10px;
+}
+
+td a {
+    text-decoration: none;
+}
+
+td a:last-child {
+    color: red;
+}
+
+#previous-box {
+    width: 1252px;
+    height: 51px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1c1414
+}
+
+#value01 {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin-right: 30px;
+    margin-top: 6px;
+    color: white;
+}
+
+#previousbtn {
+    border-radius: 20px;
+    width: 155px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+#nextbtn {
+    width: 111px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+#previous-box input {
+    width: 115px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#footer-pera {
+    width: 1252px;
+    color: #0f86ba;
+    text-align: justify;
+    margin: 45px auto;
+}
+
+table tr:nth-of-type(even) {
+    background-color: #1c1414;
+}
+
+table thead tr {
+    background-color: #1c1414;
+}
